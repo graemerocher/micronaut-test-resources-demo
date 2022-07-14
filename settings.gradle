@@ -6,11 +6,11 @@ rootProject.name="demo"
 
 gitRepositories {
     include('micronaut-gradle-plugin') {
-        uri = 'git@github.com:micronaut-projects/micronaut-gradle-plugin.git'
-        branch = 'master'
+        uri = 'https://github.com/micronaut-projects/micronaut-gradle-plugin.git'
+        branch = 'cc/cds-graeme'
     }
     include('micronaut-test-resources') {
-        uri = 'git@github.com:micronaut-projects/micronaut-test-resources.git'
+        uri = 'https://github.com/micronaut-projects/micronaut-test-resources'
         branch = 'master'
     }
 }
